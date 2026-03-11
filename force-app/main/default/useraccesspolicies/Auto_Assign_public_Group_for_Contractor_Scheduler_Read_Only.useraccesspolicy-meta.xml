@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UserAccessPolicy xmlns="http://soap.sforce.com/2006/04/metadata">
+    <booleanFilter>1 AND 2</booleanFilter>
+    <masterLabel>Auto Assign public Group for Contractor Scheduler Read Only</masterLabel>
+    <order>1</order>
+    <status>Active</status>
+    <triggerType>CreateAndUpdate</triggerType>
+    <userAccessPolicyActions>
+        <action>Grant</action>
+        <target>FSM_ContractorSchedulers</target>
+        <type>Group</type>
+    </userAccessPolicyActions>
+    <userAccessPolicyFilters>
+        <operation>equals</operation>
+        <sortOrder>1</sortOrder>
+        <target>fsm standard desktop user</target>
+        <type>Profile</type>
+    </userAccessPolicyFilters>
+    <userAccessPolicyFilters>
+        <operation>equals</operation>
+        <sortOrder>2</sortOrder>
+        <target>FSM_ContractorSchedulerReadOnly</target>
+        <type>PermissionSetGroup</type>
+    </userAccessPolicyFilters>
+</UserAccessPolicy>

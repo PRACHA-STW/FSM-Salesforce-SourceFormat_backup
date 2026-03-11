@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>CaseBatchSize</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case batch size for deletion</shortDescription>
+        <value>20</value>
+    </labels>
+    <labels>
+        <fullName>CertificateName</fullName>
+        <categories>SFI-21</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Certificate Name</shortDescription>
+        <value>STWTechuser</value>
+    </labels>
+    <labels>
+        <fullName>FSM_AutoRejectBathSize</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM Auto Reject SA Batch Size</shortDescription>
+        <value>50</value>
+    </labels>
+    <labels>
+        <fullName>FSM_DOMCasualOT</fullName>
+        <categories>SFI-668</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM DOMCasualOT</shortDescription>
+        <value>Shift - DOM Casual OT</value>
+    </labels>
+    <labels>
+        <fullName>FSM_DOMPriorityOT</fullName>
+        <categories>SFI-668</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM_DOMPriorityOT</shortDescription>
+        <value>Shift - DOM Priority OT</value>
+    </labels>
+    <labels>
+        <fullName>FSM_DefaultSchedulingPolicy</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM Default Scheduling Policy</shortDescription>
+        <value>Customer First</value>
+    </labels>
+    <labels>
+        <fullName>FSM_DeleteServiceTerritoryMember</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete Service Territory Member</shortDescription>
+        <value>You do not have access to delete this record. Please contact with your administrator.</value>
+    </labels>
+    <labels>
+        <fullName>FSM_DispatchNotificationBody</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM Dispatch Notification Body</shortDescription>
+        <value>is Dispatched to you.</value>
+    </labels>
+    <labels>
+        <fullName>FSM_DispatchNotificationTitle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM Dispatch Notification Title</shortDescription>
+        <value>Dispatch Notification</value>
+    </labels>
+    <labels>
+        <fullName>FSM_GISApiCallLimit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM_GISApiCallLimit</shortDescription>
+        <value>80</value>
+    </labels>
+    <labels>
+        <fullName>FSM_GISQueryEmailDev</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM_GISQueryEmailDev</shortDescription>
+        <value>stwdevelopment@service-now.com</value>
+    </labels>
+    <labels>
+        <fullName>FSM_GISQueryEmailProd</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM_GISQueryEmailProd</shortDescription>
+        <value>severntrentplc@service-now.com</value>
+    </labels>
+    <labels>
+        <fullName>FSM_INT14SuccessMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>INT14SuccessMessage</shortDescription>
+        <value>created successfully</value>
+    </labels>
+    <labels>
+        <fullName>FSM_INT15Version</fullName>
+        <categories>Created as part of SFI-1886</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>INT15 Vesion</shortDescription>
+        <value>/v2</value>
+    </labels>
+    <labels>
+        <fullName>FSM_INT17Vesion</fullName>
+        <categories>Created as part of SFI-1886</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>INT17 Vesion</shortDescription>
+        <value>/v1</value>
+    </labels>
+    <labels>
+        <fullName>FSM_MailjetDefaultFromAddress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM_MailjetDefaultFromAddress</shortDescription>
+        <value>donotreply@severntrent.co.uk</value>
+    </labels>
+    <labels>
+        <fullName>FSM_MailjetDefaultFromAddressName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM_MailjetDefaultFromAddressName</shortDescription>
+        <value>Severn Trent Water</value>
+    </labels>
+    <labels>
+        <fullName>FSM_MailjetProformaTemplateID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM_MailjetProformaTemplateID</shortDescription>
+        <value>6303562</value>
+    </labels>
+    <labels>
+        <fullName>FSM_MandatoryFieldErrINT11</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM_MandatoryFieldErrINT11</shortDescription>
+        <value>The request is missing one or more mandatory fields latitude, longitude, earlyStart, dueDate, postcode, duration, businessArea and durationType.</value>
+    </labels>
+    <labels>
+        <fullName>FSM_MeasuringPointReadingInterfaceName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Measuring Point Reading Interface Name</shortDescription>
+        <value>Measuring Document</value>
+    </labels>
+    <labels>
+        <fullName>FSM_NoAccessToStatusTransition</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Access To Status Transition</shortDescription>
+        <value>You do not have the required permission to change the status. Please contact your system administrator.</value>
+    </labels>
+    <labels>
+        <fullName>FSM_NotificationTitle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM Notification Title</shortDescription>
+        <value>Assignment Failure</value>
+    </labels>
+    <labels>
+        <fullName>FSM_Notificationbody</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM Notification body</shortDescription>
+        <value>has not been assigned to you, it has violated the scheduling rules, please reach out to scheduler or admins</value>
+    </labels>
+    <labels>
+        <fullName>FSM_ProductConsumedInterfaceName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product Consumed Interface Name</shortDescription>
+        <value>Send Product Consumed Update</value>
+    </labels>
+    <labels>
+        <fullName>FSM_SABatchJobSize</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM_SABatchJobSize</shortDescription>
+        <value>200</value>
+    </labels>
+    <labels>
+        <fullName>FSM_SABatchSize</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM SABatchSize</shortDescription>
+        <value>1</value>
+    </labels>
+    <labels>
+        <fullName>FSM_SAJeopardyReasonLateToComplete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM SA Jeopardy Reason Late To Complete</shortDescription>
+        <value>You are Late to Complete</value>
+    </labels>
+    <labels>
+        <fullName>FSM_SAJeopardyReasonLateToEnroute</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM SA Jeopardy Reason Late To Enroute</shortDescription>
+        <value>You are Late to Enroute</value>
+    </labels>
+    <labels>
+        <fullName>FSM_SAJeopardyReasonLateToReportAccepted</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM SA Jeopardy Reason Late To Report Accepted</shortDescription>
+        <value>You are Late to Report Accepted</value>
+    </labels>
+    <labels>
+        <fullName>FSM_SAJeopardyReasonLateToReportOnsite</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM SA Jeopardy Reason Late To Report Onsite</shortDescription>
+        <value>You are late to report onsite</value>
+    </labels>
+    <labels>
+        <fullName>FSM_ServResNotFoundErrINT11</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM_ServResNotFoundErrINT11</shortDescription>
+        <value>ServiceResource(s) are not found.</value>
+    </labels>
+    <labels>
+        <fullName>FSM_ServTerBlankErrINT11</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM_ServTerBlankErrINT11</shortDescription>
+        <value>ServiceTerritoryId cannot be blank.</value>
+    </labels>
+    <labels>
+        <fullName>FSM_ServTerNotFoundErrINT11</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM_ServTerNotFoundErrINT11</shortDescription>
+        <value>: ServiceTerritoryId not found.</value>
+    </labels>
+    <labels>
+        <fullName>FSM_SkillsNotFoundErrINT11</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM_SkillsNotFoundErrINT11</shortDescription>
+        <value>Skill(s) are not found.</value>
+    </labels>
+    <labels>
+        <fullName>FSM_SlotTypeErrINT11</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM_SlotTypeErrINT11</shortDescription>
+        <value>SlotType cannot be blank.</value>
+    </labels>
+    <labels>
+        <fullName>FSM_SlotTypeNotFoundErrINT11</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM_SlotTypeNotFoundErrINT11</shortDescription>
+        <value>SlotType not found.</value>
+    </labels>
+    <labels>
+        <fullName>FSM_StandByShiftJobsOnly</fullName>
+        <categories>SFI-668</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM Stand-By Shift Jobs Only</shortDescription>
+        <value>Stand-By Shift Jobs Only</value>
+    </labels>
+    <labels>
+        <fullName>FSM_StandardOperatingHoursBlankName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>StandardOperatingHoursBlankName</shortDescription>
+        <value>Standard Operating Hours (Blank)</value>
+    </labels>
+    <labels>
+        <fullName>FSM_StatusTransition</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>StatusTransition</shortDescription>
+        <value>No status to update</value>
+    </labels>
+    <labels>
+        <fullName>FSM_SystemAdminProfile</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM_SystemAdminProfile</shortDescription>
+        <value>System Administrator,Salesforce API Only System Integrations</value>
+    </labels>
+    <labels>
+        <fullName>FSM_TheseServResNotFoundErrINT11</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM_TheseServResNotFoundErrINT11</shortDescription>
+        <value>: These ServiceResource(s) are not found.</value>
+    </labels>
+    <labels>
+        <fullName>FSM_TheseSkillsNotFoundErrINT11</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FSM_TheseSkillsNotFoundErrINT11</shortDescription>
+        <value>: These Skill(s) are not found.</value>
+    </labels>
+    <labels>
+        <fullName>FSM_TmaServiceName</fullName>
+        <categories>SFI-707</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TmaServiceName</shortDescription>
+        <value>Send TMA Updates</value>
+    </labels>
+    <labels>
+        <fullName>FSM_VulnerableCustomer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>If the case description contains this text, the case will be marked as from a vu</shortDescription>
+        <value>THIS SUPERCEDES ANY SPECIAL CONDITIONS NOTED IN THE PREVIOUS ATTACHMENTS.</value>
+    </labels>
+    <labels>
+        <fullName>GISBody</fullName>
+        <categories>SFI-21</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GISEmailBody</shortDescription>
+        <value>Polygon not avilable with LayerId:</value>
+    </labels>
+    <labels>
+        <fullName>GISEmail</fullName>
+        <categories>SFI-21</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GISEmail</shortDescription>
+        <value>srikanth.palla@capgemini.com</value>
+    </labels>
+    <labels>
+        <fullName>GISSubject</fullName>
+        <categories>SFI-21</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GISSubject</shortDescription>
+        <value>Polygon not found</value>
+    </labels>
+    <labels>
+        <fullName>NumberOfPriorDaysForCaseDeletion</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Number of days prior case record filter for deletion</shortDescription>
+        <value>720</value>
+    </labels>
+</CustomLabels>

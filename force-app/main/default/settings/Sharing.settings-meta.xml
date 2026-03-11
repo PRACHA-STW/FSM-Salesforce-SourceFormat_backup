@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deferGroupMembership>false</deferGroupMembership>
+    <deferSharingRules>false</deferSharingRules>
+    <enableAssetSharing>true</enableAssetSharing>
+    <enablePortalUserCaseSharing>true</enablePortalUserCaseSharing>
+    <enableRemoveTMGroupMembership>false</enableRemoveTMGroupMembership>
+    <enableRestrictAccessLookupRecords>true</enableRestrictAccessLookupRecords>
+    <enableSecureGuestAccess>false</enableSecureGuestAccess>
+</SharingSettings>

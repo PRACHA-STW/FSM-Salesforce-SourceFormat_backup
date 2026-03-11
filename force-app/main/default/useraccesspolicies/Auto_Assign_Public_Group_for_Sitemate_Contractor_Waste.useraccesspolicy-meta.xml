@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UserAccessPolicy xmlns="http://soap.sforce.com/2006/04/metadata">
+    <booleanFilter>1 AND 2 AND 3</booleanFilter>
+    <masterLabel>Auto Assign Public Group for Sitemate Contractor Waste</masterLabel>
+    <order>1</order>
+    <status>Active</status>
+    <triggerType>CreateAndUpdate</triggerType>
+    <userAccessPolicyActions>
+        <action>Grant</action>
+        <target>FSM_ContractorFieldWorker</target>
+        <type>Group</type>
+    </userAccessPolicyActions>
+    <userAccessPolicyFilters>
+        <operation>equals</operation>
+        <sortOrder>1</sortOrder>
+        <target>fsm waste network field worker</target>
+        <type>Profile</type>
+    </userAccessPolicyFilters>
+    <userAccessPolicyFilters>
+        <operation>equals</operation>
+        <sortOrder>2</sortOrder>
+        <target>FSM_FieldforceSitemate</target>
+        <type>PermissionSetGroup</type>
+    </userAccessPolicyFilters>
+    <userAccessPolicyFilters>
+        <columnName>FSM_ContractorOrganisation__c</columnName>
+        <operation>in</operation>
+        <sortOrder>3</sortOrder>
+        <target>User</target>
+        <type>User</type>
+        <value>Network Plus (Water)</value>
+    </userAccessPolicyFilters>
+    <userAccessPolicyFilters>
+        <columnName>FSM_ContractorOrganisation__c</columnName>
+        <operation>in</operation>
+        <sortOrder>3</sortOrder>
+        <target>User</target>
+        <type>User</type>
+        <value>Network Plus (Developer Services)</value>
+    </userAccessPolicyFilters>
+    <userAccessPolicyFilters>
+        <columnName>FSM_ContractorOrganisation__c</columnName>
+        <operation>in</operation>
+        <sortOrder>3</sortOrder>
+        <target>User</target>
+        <type>User</type>
+        <value>Network Plus (Metering)</value>
+    </userAccessPolicyFilters>
+    <userAccessPolicyFilters>
+        <columnName>FSM_ContractorOrganisation__c</columnName>
+        <operation>in</operation>
+        <sortOrder>3</sortOrder>
+        <target>User</target>
+        <type>User</type>
+        <value>Sapphire Utility Services</value>
+    </userAccessPolicyFilters>
+    <userAccessPolicyFilters>
+        <columnName>FSM_ContractorOrganisation__c</columnName>
+        <operation>in</operation>
+        <sortOrder>3</sortOrder>
+        <target>User</target>
+        <type>User</type>
+        <value>Customer Solutions Plus</value>
+    </userAccessPolicyFilters>
+    <userAccessPolicyFilters>
+        <columnName>FSM_ContractorOrganisation__c</columnName>
+        <operation>in</operation>
+        <sortOrder>3</sortOrder>
+        <target>User</target>
+        <type>User</type>
+        <value>Brays</value>
+    </userAccessPolicyFilters>
+    <userAccessPolicyFilters>
+        <columnName>FSM_ContractorOrganisation__c</columnName>
+        <operation>in</operation>
+        <sortOrder>3</sortOrder>
+        <target>User</target>
+        <type>User</type>
+        <value>PN Daly</value>
+    </userAccessPolicyFilters>
+    <userAccessPolicyFilters>
+        <columnName>FSM_ContractorOrganisation__c</columnName>
+        <operation>in</operation>
+        <sortOrder>3</sortOrder>
+        <target>User</target>
+        <type>User</type>
+        <value>Watertight</value>
+    </userAccessPolicyFilters>
+    <userAccessPolicyFilters>
+        <columnName>FSM_ContractorOrganisation__c</columnName>
+        <operation>in</operation>
+        <sortOrder>3</sortOrder>
+        <target>User</target>
+        <type>User</type>
+        <value>Kings</value>
+    </userAccessPolicyFilters>
+    <userAccessPolicyFilters>
+        <columnName>FSM_ContractorOrganisation__c</columnName>
+        <operation>in</operation>
+        <sortOrder>3</sortOrder>
+        <target>User</target>
+        <type>User</type>
+        <value>HD Contractor</value>
+    </userAccessPolicyFilters>
+    <userAccessPolicyFilters>
+        <columnName>FSM_ContractorOrganisation__c</columnName>
+        <operation>in</operation>
+        <sortOrder>3</sortOrder>
+        <target>User</target>
+        <type>User</type>
+        <value>Other STW Contractor</value>
+    </userAccessPolicyFilters>
+</UserAccessPolicy>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UserAccessPolicy xmlns="http://soap.sforce.com/2006/04/metadata">
+    <booleanFilter>1 AND 2</booleanFilter>
+    <description>Profile - FSM Standard Desktop User
+Permission Set Group - FSM Business Admin
+
+Public Group auto assigned - FSM_BusinessAdminGroup</description>
+    <masterLabel>Auto-Assign Public Group for Business Admin</masterLabel>
+    <order>1</order>
+    <status>Active</status>
+    <triggerType>CreateAndUpdate</triggerType>
+    <userAccessPolicyActions>
+        <action>Grant</action>
+        <target>FSM_BusinessAdminGroup</target>
+        <type>Group</type>
+    </userAccessPolicyActions>
+    <userAccessPolicyFilters>
+        <operation>equals</operation>
+        <sortOrder>2</sortOrder>
+        <target>FSM_BusinessAdmin</target>
+        <type>PermissionSetGroup</type>
+    </userAccessPolicyFilters>
+    <userAccessPolicyFilters>
+        <operation>equals</operation>
+        <sortOrder>1</sortOrder>
+        <target>fsm standard desktop user</target>
+        <type>Profile</type>
+    </userAccessPolicyFilters>
+</UserAccessPolicy>
